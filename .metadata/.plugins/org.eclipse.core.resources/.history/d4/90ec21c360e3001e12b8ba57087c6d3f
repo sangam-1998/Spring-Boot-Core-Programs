@@ -1,0 +1,38 @@
+package spring.core.movies;
+
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+import spring.core.tickets.Ticket;
+
+@Scope("singlton")
+@Component("m")
+public class Movie {
+	
+	Ticket t;
+	
+	
+
+	public int getTicketNum() {
+		return t.getTicketNum();
+	}
+
+	public void setTicketNum(int ticketNum) {
+		t.setTicketNum(ticketNum);
+	}
+
+	public int hashCode() {
+		return t.hashCode();
+	}
+
+	public boolean equals(Object obj) {
+		return t.equals(obj);
+	}
+
+	public String toString() {
+		return t.toString();
+	}
+	
+	
+
+}

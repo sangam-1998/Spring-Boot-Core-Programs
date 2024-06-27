@@ -1,0 +1,26 @@
+package spring.core.tickets;
+
+import java.util.Random;
+
+import org.springframework.context.annotation.Scope;
+
+@Scope("prototype")
+public class Ticket {
+
+	private int ticketNum = 0;
+
+	public Ticket() {
+
+		ticketNum = new Random().nextInt(9999);
+
+	}
+
+	public int getTicketNum() {
+		return ticketNum;
+	}
+
+	public void setTicketNum(int ticketNum) {
+		this.ticketNum = ticketNum;
+	}
+
+}

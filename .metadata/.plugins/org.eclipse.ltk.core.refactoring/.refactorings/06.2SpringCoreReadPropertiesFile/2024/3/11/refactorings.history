@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;06.2SpringCoreReadPropertiesFile/src/main/resources/cong.properties&apos; to &apos;conf.properties&apos;" description="Rename resource &apos;cong.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/cong.properties" name="conf.properties" stamp="1710167120897" updateReferences="true"/>
+</session>

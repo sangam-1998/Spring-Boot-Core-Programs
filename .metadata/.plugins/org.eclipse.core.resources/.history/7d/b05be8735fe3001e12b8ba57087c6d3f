@@ -1,0 +1,9 @@
+package spring.core.tickets;
+
+public class Ticket {
+	
+	private ticketNum =0;
+	
+	
+
+}

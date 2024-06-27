@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+    <bean id="di" class="spring.core.bean.DbInfo">
+    
+    <property name="url" value="jdbc:mysql://localhost:3306/"></property>
+    <property name="driver" value="com.mysql.cj.jdbc.Driver"></property>
+    
+    </bean>
+
+    <bean id="ds" class="spring.core.service.DbService" init-method="start" destroy-method="stop">
+    
+    <property name="dinfo" ref="di"></property>
+    
+    </bean>
+
+
+</beans>

@@ -1,0 +1,8 @@
+package spring.core.movies;
+
+import org.springframework.context.annotation.Scope;
+
+@Scope("singlton")
+public class Movie {
+
+}

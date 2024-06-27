@@ -1,0 +1,20 @@
+package spring.core.employees;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import spring.core.company.ComapnyInfo;
+
+@Component("einfo")
+public class EmployeeInfo {
+
+	@Autowired
+	ComapnyInfo cinfo;
+
+	@Override
+	public String toString() {
+		return "EmployeeInfo [cinfo=" + cinfo + "]";
+	}
+	
+
+}

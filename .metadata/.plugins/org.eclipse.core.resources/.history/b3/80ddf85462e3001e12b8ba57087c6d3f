@@ -1,0 +1,5 @@
+package spring.core.company;
+
+public class ComapnyInfo {
+
+}

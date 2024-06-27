@@ -1,0 +1,16 @@
+package core.spring.parent;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import lombok.Data;
+
+@Component("sw")
+@Data
+public class SmartWatch {
+
+	
+	@Autowired
+	Time t;
+	
+}

@@ -1,0 +1,18 @@
+package spring.core.application;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import spring.core.cong.config;
+import spring.core.employees.EmployeeInfo;
+
+public class Application {
+
+	public static void main(String x[]) {
+
+		ApplicationContext context = new AnnotationConfigApplicationContext(config.class);
+
+		EmployeeInfo einfo = context.getBean("einfo",EmployeeInfo.class)
+		
+	}
+}

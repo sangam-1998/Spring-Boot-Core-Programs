@@ -1,0 +1,13 @@
+package spring.core.company;
+
+import org.springframework.stereotype.Component;
+
+@Component("cinfo")
+public class ComapnyInfo {
+
+	@Override
+	public String toString() {
+		return "ComapnyInfo []";
+	}
+
+}

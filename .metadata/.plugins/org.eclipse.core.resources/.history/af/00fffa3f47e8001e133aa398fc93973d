@@ -1,0 +1,11 @@
+package core.spring.child;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Time {
+
+	private int time;
+	
+	
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+
+	<beans>
+
+		<bean class="org.com.spring.StudentInfo" id="sinfo">
+
+			<property name="RollNu">
+				<set>
+					<value>101</value>
+					<value>102</value>
+					<value>103</value>
+					<value>104</value>
+				</set>
+			</property>
+
+			<property name="Subject">
+				<list>
+				<value>Biology</value>
+				<value>Chemistry</value>
+				<value>Physics</value>
+				<value>Math</value>
+				</list>
+			</property>
+
+			<property name="info">
+				<map>
+				<entry key="101" value="Sangam"> </entry>
+				<entry key="102" value="Pooja"> </entry>
+				<entry key="103" value="Rutuja"> </entry>
+				<entry key="104" value="Rohan"> </entry>
+				
+				</map>
+				
+			</property>
+
+            <property name="prop">
+             <props>
+                <prop key="101" >Biology</prop>
+                <prop key="102" >Chemistry</prop>
+                <prop key="103" >Physics</prop>
+                <prop key="104" >Math</prop>
+               
+             </props>
+            
+            
+            
+            </property>
+		</bean>
+
+
+	</beans>
+
+</beans>

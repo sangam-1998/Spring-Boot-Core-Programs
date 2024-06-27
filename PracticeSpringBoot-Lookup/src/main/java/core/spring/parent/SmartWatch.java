@@ -1,0 +1,36 @@
+package core.spring.parent;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Lookup;
+import org.springframework.stereotype.Component;
+
+import core.spring.child.Time;
+import lombok.Data;
+
+@Component("sw")
+public class SmartWatch {
+
+	@Autowired
+	Time t;
+	
+//	@Lookup
+//	public Time getSM() {
+//		return null;
+//		
+//	}
+
+	
+	@Override
+	public String toString() {
+//		t = getSM();
+		return "SmartWatch [t=" + t + "]";
+	}
+
+	public Time getT() {
+		return t;
+	}
+
+	
+	
+	
+}

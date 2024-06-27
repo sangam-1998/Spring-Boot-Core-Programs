@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="G:\New folder\SpringBoot-SBMC\12SpringCoreBeanAnnotationLookup"/>
+			<item value="G:\New folder\SpringBoot-SBMC\09.3SpringCoreAnnotationConfiguration\src\main\java"/>
+			<item value="G:\New folder\SpringBoot-SBMC\09.1SpringCoreAnnotationConfiguration"/>
+			<item value="G:\New folder\SpringBoot-SBMC\09.2SpringCoreAnnotationConfigurationWithPropertiesFIle\src\main\java\spring\core\conf\ConfigurationClass.java"/>
+			<item value="G:\New folder\SpringBoot-SBMC\07.1SpringCoreAnnaotationAutowired"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.springboot"/>
+			<item value="com.spring.core"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="PracticeSpringBoot-Lookup"/>
+			<item value="13SpringCoreCircularDependencyApplication"/>
+			<item value="12.5LookupAnnotationEX"/>
+			<item value="09.4COnfigurationAnnotation"/>
+			<item value="12.4LookupAnnotationEX"/>
+			<item value="12.2SpringCoreBeansAnnotattionLookUp"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

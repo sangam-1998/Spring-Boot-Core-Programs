@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+
+    <bean id="dbType" class="spring.core.bean.DataBaseTye">
+       <constructor-arg value="MySql">
+       </constructor-arg>
+     
+    </bean>
+
+	<bean class="spring.core.bean.DbInfo" id="dbinfo">
+		<constructor-arg value="jdbc:mysql//localhost:3306"></constructor-arg>
+		<constructor-arg value="com.mysql.cj.jdbc.Driver"></constructor-arg>
+		<constructor-arg value="root"></constructor-arg>
+		<constructor-arg value="Sangam@123"></constructor-arg>
+		<constructor-arg >
+		<set>
+		     <value>Insert</value>
+		     <value>Delete</value>
+		     <value>Update</value>
+		</set>
+		
+		</constructor-arg>
+		<constructor-arg  ref="dbType"></constructor-arg>
+	</bean>
+
+    <bean class="spring.core.DbOperation.DbConnection" id="conn">
+	   <property name="dinfo" ref="dbinfo"></property>
+	
+	</bean>
+    
+
+</beans>

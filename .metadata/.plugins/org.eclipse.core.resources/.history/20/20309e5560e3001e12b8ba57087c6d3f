@@ -1,0 +1,5 @@
+package spring.core.movies;
+
+public class Movie {
+
+}
